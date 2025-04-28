@@ -1,4 +1,4 @@
-FROM docker.io/library/mysql:latest
+FROM docker.io/library/mysql
 
 COPY import.sh users.sql /post-deploy
 
