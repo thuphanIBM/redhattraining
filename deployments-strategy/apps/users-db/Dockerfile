@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/mysql:latest
+FROM docker.io/library/mysql:latest
 
 COPY import.sh users.sql /post-deploy
 
